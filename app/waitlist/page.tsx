@@ -12,9 +12,13 @@ const WaitlistPage = () => {
                     <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-center bg-linear-to-b from-[#000000] to-[#FF5E44] bg-clip-text text-transparent'>Where professionals meet with purpose.</h1>
                     <p className='text-sm sm:text-base md:text-lg text-center font-medium max-w-[600px] mx-auto text-[#848484]'>FORJ helps verified professionals build meaningful connections through smart matching, shared values, and real intent.</p>
 
-                    <div className='flex flex-col sm:flex-row items-center justify-center w-full bg-[#F4F4F4] py-2 sm:py-3 px-3 sm:px-4 rounded-2xl sm:rounded-full mt-4 sm:mt-6 max-w-[500px] mx-auto gap-2 sm:gap-0'>
-                        <Input type="email" placeholder='Enter your email' className='w-full p-2 rounded-md border-none shadow-none outline-none ring-0 focus:ring-0 focus:outline-none focus:border-none focus-visible:ring-0 focus-visible:border-none focus-visible:outline-none bg-transparent text-sm sm:text-base' />
-                        <Button className='bg-black text-white py-3 sm:py-4 px-5 sm:px-7 rounded-full text-sm sm:text-base font-medium w-full sm:w-auto whitespace-nowrap'>Join the waitlist</Button>
+                    <div className='relative flex items-center justify-center w-full mt-4 sm:mt-6 max-w-[500px] mx-auto'>
+                        <Image className='hidden lg:block absolute -left-40 xl:-left-52 top-[70%] -translate-y-1/2 w-20 xl:w-24 h-auto' src={"/assets/images/app-images/carrot.png"} alt='carrot' width={200} height={200} />
+                        <Image className='hidden lg:block absolute -right-40 xl:-right-52 top-[20%] -translate-y-1/2 w-20 xl:w-24 h-auto' src={"/assets/images/app-images/3dmessage.png"} alt='message' width={200} height={200} />
+                        <div className='flex flex-col sm:flex-row items-center justify-center w-full bg-[#F4F4F4] py-2 sm:py-3 px-3 sm:px-4 rounded-2xl sm:rounded-full gap-2 sm:gap-0'>
+                            <Input type="email" placeholder='Enter your email' className='w-full p-2 rounded-md border-none shadow-none outline-none ring-0 focus:ring-0 focus:outline-none focus:border-none focus-visible:ring-0 focus-visible:border-none focus-visible:outline-none bg-transparent text-sm sm:text-base' />
+                            <Button className='bg-black text-white py-3 sm:py-4 px-5 sm:px-7 rounded-full text-sm sm:text-base font-medium w-full sm:w-auto whitespace-nowrap'>Join the waitlist</Button>
+                        </div>
                     </div>
                 </div>
                 <div className='flex items-center justify-center w-full gap-2'>
