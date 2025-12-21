@@ -29,9 +29,24 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   themeColor: "#FF5E44",
   openGraph: {
-    title: "Forj",
-    description: "Forj is a dating app for verified professionals seeking meaningful relationships.",
-    images: "/favicon.ico",
+    title: "Forj - Dating for Verified Professionals",
+    description: "A dating app for verified professionals seeking meaningful relationships. Real connections start with clear intent.",
+    url: "https://forj.online",
+    siteName: "Forj",
+    images: [
+      {
+        url: "/og-image.png",
+        alt: "Forj - Closer to love. From the first Swipe",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Forj - Dating for Verified Professionals",
+    description: "A dating app for verified professionals seeking meaningful relationships.",
+    images: ["/og-image.png"],
   },
 };
 
